@@ -1,6 +1,6 @@
-const balance = document.getElementById("balance");
+//const balance = document.getElementById("balance");
 const inflow = document.getElementById("income");
-const outflow = document.getElementById("expense");
+//const outflow = document.getElementById("expense");
 const list = document.getElementById("list");
 const form = document.getElementById("form");
 const text = document.getElementById("text");
@@ -87,9 +87,9 @@ function updateValues() {
       .filter((value) => value < 0)
       .reduce((bal, value) => (bal += value), 0) * -(1).toFixed(2);
 
-  balance.innerText = `$${total}`;
+ // balance.innerText = `$${total}`;
   inflow.innerText = `$${income}`;
-  outflow.innerText = `$${expense}`;
+  //outflow.innerText = `$${expense}`;
 }
 
 // Remove transaction by ID
