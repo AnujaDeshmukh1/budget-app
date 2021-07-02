@@ -115,6 +115,7 @@ label {
   display: inline-block;
   margin: 10px 0;
   font-weight: bolder;
+  color: yellow;
 }
 
 .btn {
@@ -124,6 +125,7 @@ label {
   border-radius: 1rem;
   outline: none;
   background-color: rgb(230, 165, 236);
+  color: black;
 }
   color: whitesmoke;
   letter-spacing: 3px;
@@ -194,8 +196,8 @@ ul li {
 footer {
   text-align: center;
   font-weight: bolder;
-  color: white;
+  color: yellow;
 }
 footer a {
-  color: rgb(86, 184, 197);
+  color: rgb(39, 3, 36);
 }
